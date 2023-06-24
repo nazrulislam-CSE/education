@@ -1,0 +1,996 @@
+/*==============================================
+			Header Default Style				
+==============================================*/
+.tg-formtheme{overflow: hidden;}
+.tg-topbar{
+	width: 100%;
+	float: left;
+	min-height: 40px;
+	position: relative;
+	background: #292929;
+}
+.tg-contactinfo{
+	float: left;
+	color: #fff;
+	z-index: 2;
+	padding: 10px 0;
+	list-style: none;
+	font-size: 13px;
+	line-height: 20px;
+	position: relative;
+}
+.tg-contactinfo li{
+	float: left;
+	line-height: inherit;
+	list-style-type: none;
+}
+.tg-contactinfo li + li{padding: 0 0 0 15px;}
+.tg-contactinfo li i,
+.tg-contactinfo li span,
+.tg-contactinfo li span a{
+	color: #fff;
+	float: left;
+	line-height: inherit;
+}
+.tg-contactinfo li i img{display: block;}
+/*.tg-contactinfo li i{padding: 0 5px 0 0;}
+.tg-contactinfo li:first-child i{
+	padding: 3px 5px 0 0;
+	line-height: 17px;
+}*/
+.tg-addnav{
+	z-index: 2;
+	color: #fff;
+	float: right;
+	padding: 10px 0;
+	list-style: none;
+	font-size: 13px;
+	line-height: 20px;
+	position: relative;
+	text-transform: capitalize;
+}
+.tg-addnav li{
+	float: left;
+	padding: 0 15px;
+	position: relative;
+	line-height: inherit;
+	list-style-type: none;
+}
+.tg-addnav li:first-child{padding-left: 0;}
+.tg-addnav li:last-child{padding-right: 0;}
+.tg-addnav > li + li:before{
+	left: 0;
+	content: '';
+	width: 1px;
+	height: 12px;
+	margin: -6px 0 0;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+}
+.tg-addnav li a{
+	color: #fff;
+	display: block;
+}
+.tg-addnav li i,
+.tg-addnav li span{
+	float: left;
+	line-height: 20px;
+}
+.tg-addnav li i{padding: 0 5px 0 0;}
+.tg-addnav .tg-socialicons{margin: 0;}
+.tg-addnav .tg-socialicons li{
+	padding: 0 8px;
+	line-height: 20px;
+}
+.tg-addnav .tg-socialicons li:first-child{padding-left: 0;}
+.tg-addnav .tg-socialicons li:last-child{padding-right: 0;}
+.tg-addnav .tg-socialicons li a{
+	width: auto;
+	height: auto;
+	border-radius: 0;
+	line-height: inherit;
+	background: transparent;
+}
+.tg-addnav .tg-socialicons li a i{
+	width: auto;
+	line-height: inherit;
+}
+.tg-navigationarea{
+	width: 100%;
+	float: left;
+	padding: 25px 0;
+	position: relative;
+}
+.tg-logo{float: left;}
+.tg-logo a{display: block;}
+.tg-logo a img{display: block;}
+.tg-nav{
+	float: right;
+	padding: 15px 0;
+	text-transform: uppercase;
+	font:700 15px/20px 'Roboto', Arial, Helvetica, sans-serif;
+}
+.tg-navigation{
+	padding: 0;
+	width: 100%;
+	float: left;
+}
+.tg-navigation > ul{
+	width: 100%;
+	float: left;
+}
+.tg-navigation ul{
+	list-style: none;
+	font-size: inherit;
+	line-height: inherit;
+}
+.tg-navigation > ul > li{
+	float: left;
+	margin: 0 25px;
+}
+.tg-navigation ul li{
+	line-height: inherit;
+	list-style-type: none;
+}
+.tg-navigation ul li:first-child{margin-left: 0;}
+.tg-navigation ul li:last-child{margin-right: 0;}
+.tg-navigation ul li a{
+	color: #292929;
+	display: block;
+}
+.tg-contactinfovtwo{
+	padding: 0;
+	float: right;
+	color: #e0e1e4;
+	font-size: 14px;
+	line-height: 17px;
+}
+.tg-contactinfo.tg-contactinfovtwo li{
+	float: left;
+	margin: 0 0 0 60px;
+	position: relative;
+	line-height: inherit;
+	padding: 3px 0 3px 65px;
+}
+.tg-contactinfovtwo li:first-child{margin: 0;}
+.tg-contactinfoicon{
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	display: block;
+	line-height: 48px;
+	border-radius: 5px;
+	position: absolute;
+	border: 1px solid #fff;
+}
+.tg-contactinfovtwo li span{
+	float: none;
+	clear: both;
+	display: block;
+	border-radius: 0;
+}
+.tg-contactinfovtwo li address{
+	margin: 0;
+	font-style: normal;
+	font-size: inherit;
+	line-height: inherit;
+}
+.tg-contactinfovtwo li span:last-child,
+.tg-contactinfovtwo li address span{padding: 10px 0 0;}
+.sub-menu,
+.mega-menu {
+	top: 150px;
+	left: 0;
+	opacity: 0;
+	z-index: 99;
+	padding: 20px;
+	background: #fff;
+	visibility: hidden;
+	position: absolute;
+	-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.10);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.10);
+}
+.sub-menu{
+	margin: 0;
+	width: 230px;
+}
+.menu-item-has-children,
+.menu-item-has-mega-menu {position: relative;}
+.sub-menu li + li{ margin: 15px 0 0; }
+.sub-menu li a{ color: #292929; }
+.tg-navigation > ul > li:hover .sub-menu,
+.tg-navigation > ul > li:hover .mega-menu {
+	top: 100%;
+	opacity: 1;
+	visibility: visible;
+}
+/*==============================================
+			Header Version One					
+==============================================*/
+.tg-headervone .tg-topbar{
+	background: none;
+	padding: 0 0 0 440px;
+}
+.tg-headervone .tg-topbar:before{
+	top: 0;
+	left: 100%;
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.tg-headervone .tg-topbar:after{
+	top: 0;
+	left: 375px;
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #292929;
+	border-radius: 0 0 0 20px;
+}
+.tg-headervone .tg-navigationarea{padding: 0;}
+.tg-headervone .tg-logo{
+	top: -40px;
+	left: 0;
+	background: #fff;
+	position: absolute;
+	padding: 30px 60px 30px 0;
+	border-radius: 0 20px 0 0;
+}
+.tg-headervone .tg-logo:before{
+	top: 0;
+	right: 0;
+	z-index: -1;
+	content: '';
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	background: #292929;
+}
+.tg-headervone .tg-nav{
+	float: right;
+	padding:30px 0;
+}
+/*==============================================
+			Header Version Two					
+==============================================*/
+
+
+
+
+/*==============================================
+			Header Version Three				
+==============================================*/
+.tg-headervthree .tg-topbar{
+	padding: 35px 0;
+	background: transparent;
+}
+.tg-topbar .tg-logo{float: left;}
+.tg-headervthree .tg-addnav{padding: 15px 0;}
+.tg-headervthree .tg-addnav{color: #444;}
+.tg-headervthree .tg-addnav > li + li:before{background: #444;}
+.tg-headervthree .tg-addnav li a{color: #444;}
+.tg-headervthree .tg-navigationarea{
+	padding: 0;
+	background: #000;
+}
+.tg-headervthree .tg-nav{
+	float: left;
+	padding: 0;
+}
+.tg-headervthree .tg-navigation > ul > li{margin: 0;}
+.tg-headervthree .tg-navigation > ul > li > a{
+	color: #fff;
+	position: relative;
+	padding: 25px 35px;
+}
+.tg-headervthree .tg-navigation ul li a:before{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 4px;
+	content: '';
+	position: absolute;
+	background: rgba(0, 0, 0, 0);
+}
+.tg-headervthree .tg-navigation > ul > li:hover > a,
+.tg-headervthree .tg-navigation > ul > li > a:hover,
+.tg-headervthree .tg-navigation > ul > li.tg-active a{color: #fff;}
+.tg-headervthree .tg-navigation > ul > li:hover > a:before,
+.tg-headervthree .tg-navigation > ul > li > a:hover:before,
+.tg-headervthree .tg-navigation > ul > li.tg-active > a:before{background: rgba(0, 0, 0, 0.15);}
+.tg-headervthree .tg-formsearch{
+	float: none;
+	width: auto;
+	margin: 15px 0;
+	position: relative;
+}
+.tg-headervthree .tg-formsearch .form-control{
+	border: 0;
+	z-index: 1;
+	color: #fff;
+	width: 100%;
+	display: block;
+	background: none;
+	position: relative;
+	padding: 10px 50px 10px 15px;
+}
+.tg-headervthree .tg-formsearch button{
+	top: 0;
+	right: 0;
+	z-index: 2;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	background: none;
+	line-height: 40px;
+	position: absolute;
+}
+.tg-headervthree .tg-formsearch button i{
+	display: block;
+	text-align: center;
+	line-height: inherit;
+}
+/*==============================================
+			Header Version Four					
+==============================================*/
+.tg-headerslider{position: relative;}
+.tg-headervfour{}
+.tg-headervfour .tg-topbar{
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+	background: none;
+	padding: 40px 0 0;
+	position: absolute;
+}
+/* .tg-contactinfovtwo{color: #e0e1e4;} */
+.tg-headervfour .tg-navigationarea{
+	left: 0;
+	bottom: 0;
+	padding: 0;
+	z-index: 99;
+	width: 100%;
+	float: none;
+	position: absolute;
+}
+.tg-navigationarea .tg-box{
+	width: 100%;
+	float: left;
+	padding: 5px;
+	height: 70px;
+	background: #fff;
+}
+.tg-navigationarea .tg-box .tg-nav{
+	float: left;
+	padding: 20px;
+}
+.tg-rightbox{float: right;}
+.tg-rightbox .tg-addnav{
+	float: left;
+	font-size: 16px;
+	padding: 20px 0;
+}
+.tg-rightbox .tg-addnav li a{color: #737373;}
+.tg-rightbox .tg-addnav .tg-socialicons{margin: 0;}
+.tg-rightbox .tg-addnav .tg-socialicons li a,
+.tg-rightbox .tg-addnav .tg-socialicons li a i{
+	color: #737373;
+	font-size: 16px;
+}
+.tg-searcharea{
+	float: right;
+	padding: 0 0 0 30px;
+}
+.tg-searcharea .tg-formsearch{display: none;}
+/*==============================================
+			Header Version Five					
+==============================================*/
+.tg-headervfive .tg-topbar{background: #000;}
+.tg-logoarea{
+	width: 100%;
+	float: left;
+	padding: 40px 0;
+}
+.tg-logoarea .tg-contactinfovtwo{
+	color: #000;
+	padding: 5px 0;
+}
+.tg-logoarea .tg-contactinfoicon{border-color: #000;}
+.tg-logoarea .tg-contactinfovtwo li span,
+.tg-logoarea .tg-contactinfovtwo li span a{color: #000;}
+.tg-logoarea .tg-contactinfovtwo li span:last-child,
+.tg-logoarea .tg-contactinfovtwo li span:last-child a,
+.tg-logoarea .tg-contactinfovtwo li address span{color: #737373;}
+.tg-headervfive .tg-navigationarea{
+	padding: 0;
+	z-index: 10;
+	margin: 0 0 -30px;
+	position: relative;
+}
+.tg-headervfive .tg-nav{
+	float: left;
+	padding: 20px 0 20px 40px;
+}
+.tg-headervfive .tg-navigation > ul > li > a,
+.tg-headervfive .tg-navigation > ul > li > a:hover,
+.tg-headervfive .tg-navigation > ul > li.tg-active > a{color: #fff;}
+.tg-headervfive .tg-btnsearch{background: rgba(0, 0, 0, 0.10);}
+.tg-headervfive .tg-btnsearch:hover{color: #fff;}
+/*==============================================
+			Header Version Six					
+==============================================*/
+.tg-headervsix{
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+	position: absolute;
+}
+.tg-headerholder{
+	width: 100%;
+	float: left;
+	background: #fff;
+	position: relative;
+}
+.tg-headerholder .tg-logo{
+	top: 0;
+	left: 0;
+	z-index: 5;
+	float: left;
+	position: absolute;
+	padding: 25px 15px 25px 30px;
+}
+.tg-headerholder .tg-logo:before{
+	top: 0;
+	left: 100%;
+	width: 0;
+	height: 0;
+	content: '';
+	position: absolute;
+	border-right: 70px solid transparent !important;
+	border-bottom: 110px solid;
+}
+.tg-headerholder .tg-nav{
+	width: 100%;
+	padding: 0 50px 0 350px;
+}
+.tg-headerholder .tg-navigation > ul{
+	width: auto;
+	float: right;
+}
+.tg-headerholder .tg-navigation > ul > li{float: left;}
+.tg-headerholder .tg-navigation > ul > li > a{line-height: 60px;}
+.tg-headerholder .tg-topbar{
+	text-align: right;
+	padding: 0 0 0 350px;
+}
+.tg-headerholder .tg-addnav{
+	float: none;
+	padding: 15px 0;
+	vertical-align: top;
+	display: inline-block;
+}
+.tg-headerholder .tg-addnav > li{padding: 0 30px;}
+.tg-headerholder .tg-addnav li:before{display: none;}
+.tg-headerholder .tg-addnav .tg-socialicons li a,
+.tg-headerholder .tg-addnav .tg-socialicons li a i{color: #9e9e9e;}
+.tg-headerholder .tg-formtheme{
+	width: auto;
+	float: none;
+	overflow: visible;
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+}
+.tg-headerholder .tg-formtheme .form-control{display: none;}
+.tg-headerholder .tg-formtheme button{
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	line-height: 50px;
+}
+.tg-headerholder .tg-formtheme button i{
+	display: block;
+	font-size: 24px;
+	line-height: inherit;
+}
+/*==============================================
+			Header Version Seven				
+==============================================*/
+.tg-headervseven{
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+	padding: 35px 0 0;
+	text-align: right;
+	position: absolute;
+}
+.tg-headervseven .tg-nav{
+	padding: 0;
+	float: none;
+	display: inline-block;
+}
+.tg-headervseven .tg-navigation > ul > li > a{
+	color: #fff;
+	line-height: 54px;
+}
+.tg-headervseven .sub-menu li a{text-align: left;}
+.tg-headervseven .tg-formsearch{
+	width: auto;
+	float: right;
+	overflow: visible;
+	padding: 15px 0 14px 50px;
+}
+.tg-headervseven .tg-formsearch .form-control{display: none;}
+.tg-headervseven .tg-formsearch button{
+	font-size: 18px;
+	line-height: 18px;
+	background: transparent;
+}
+/*==============================================
+			Header Version Eight				
+==============================================*/
+.tg-headerveight{
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+	padding: 35px 0 0;
+	position: absolute;
+}
+.tg-headerveight .container{position: relative;}
+.tg-logoandtopbar{
+	width: 100%;
+	float: left;
+	background: #fff;
+	padding: 20px 50px 20px 30px;
+}
+.tg-logoandtopbar .tg-topbar{
+	width: auto;
+	float: right;
+	min-height: auto;
+	background: none;
+
+}
+.tg-logoandtopbar .tg-addnav,
+.tg-logoandtopbar .tg-branches{float: left;}
+.tg-logoandtopbar .tg-addnav{
+	padding: 0;
+	color: #777;
+	font-size: 15px;
+}
+.tg-logoandtopbar .tg-addnav > li{padding: 0 20px;}
+.tg-logoandtopbar .tg-addnav li:before{display: none;}
+.tg-logoandtopbar .tg-addnav li:last-child{text-transform: uppercase;}
+.tg-logoandtopbar .tg-addnav li a{color: #777;}
+.tg-logoandtopbar .tg-addnav li .tg-socialicons li a,
+.tg-logoandtopbar .tg-addnav li .tg-socialicons li a i{
+	color: #777;
+	font-size: 14px;
+}
+.tg-logoandtopbar .tg-branches{
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 18px;
+	margin: 0 0 0 40px;
+	text-transform: uppercase;
+}
+.tg-headerveight .tg-navigationarea{
+	right: 0;
+	padding: 0;
+	float: none;
+	width: auto;
+	bottom: -30px;
+	position: absolute;
+	background: #27496c;
+}
+.tg-headerveight .tg-nav,
+.tg-headerveight .tg-formsearch{float: left;}
+.tg-headerveight .tg-formsearch{width: auto;}
+.tg-headerveight .tg-nav {padding: 0 80px;}
+.tg-headerveight .tg-navigation > ul > li > a{
+	color: #fff;
+	text-align: left;
+	line-height: 60px;
+}
+.tg-headerveight .tg-formsearch .form-control{display: none;}
+.tg-headerveight .tg-formsearch button{
+	color: #fff;
+	width: 60px;
+	height: 60px;
+	font-size: 22px;
+	line-height: 60px;
+}
+/*==============================================
+			Header Version Nine					
+==============================================*/
+.tg-headervnine .tg-topbar{
+	min-height: 45px;
+	background: #fff;
+	border-bottom: 1px solid rgba(45, 62, 80, 0.30);
+}
+.tg-headervnine .tg-topbar .tg-contactinfo,
+.tg-headervnine .tg-addnav{
+	color: #737373;
+	padding: 12px 0;
+}
+.tg-headervnine .tg-topbar .tg-contactinfo li,
+.tg-headervnine .tg-addnav > li{
+	padding: 0 20px;
+	position: relative;
+}
+.tg-headervnine .tg-topbar .tg-contactinfo li:first-child{padding-left: 0;}
+.tg-headervnine .tg-addnav > li:last-child{padding-right: 0;}
+.tg-headervnine .tg-topbar .tg-contactinfo li + li:before,
+.tg-headervnine .tg-addnav > li + li:before{
+	top: 4px;
+	left: 0;
+	margin: 0;
+	width: 1px;
+	height: 14px;
+	content: '';
+	position: absolute;
+	background: #737373;
+}
+.tg-headervnine .tg-topbar .tg-contactinfo li a,
+.tg-headervnine .tg-addnav li a,
+.tg-headervnine .tg-addnav > li .tg-socialicons li a,
+.tg-headervnine .tg-addnav > li .tg-socialicons li a i{color: #737373;}
+.tg-headervnine .tg-contactinfo li i{padding-top: 1px;}
+.tg-headervnine .tg-navigationarea{
+	padding: 0;
+	background: #202736;
+}
+.tg-headervnine .tg-nav{
+	padding: 0;
+	float: left;
+}
+.tg-headervnine .tg-navigation > ul > li > a{
+	color: #fff;
+	line-height: 60px;
+}
+.tg-headervnine .tg-formsearch{
+	width: 30%;
+	float: right;
+	overflow: visible;
+	position: relative;
+	border-left: 2px solid #fff;
+}
+.tg-headervnine .tg-formsearch:before{
+	top: 0;
+	left: 100%;
+	content: '';
+	width: 999px;
+	height: 100%;
+	position: absolute;
+}
+.tg-headervnine .tg-formsearch .form-control{
+	border: 0;
+	color: #fff;
+	float: left;
+	width: 100%;
+	height: 60px;
+	background: none;
+	line-height: 60px;
+	padding: 0 75px 0 15px;
+}
+.tg-headervnine .tg-formsearch .form-control::-moz-placeholder{color: #fff;}
+.tg-headervnine .tg-formsearch .tg-btnsearch{
+	top: 0;
+	right: 0;
+	font-size: 16px;
+	position: absolute;
+}
+/*==============================================
+			Header Version Ten					
+==============================================*/
+.tg-headervten{
+	top: 50px;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+	position: absolute;
+}
+.tg-headervten .tg-headerholder .tg-logo{padding: 24px 30px;}
+.tg-headervten .tg-headerholder .tg-logo:before{display: none;}
+.tg-headervten .tg-headerholder .tg-topbar{
+	color: #737373;
+	background: #fff;
+	padding: 0 0 0 320px;
+}
+.tg-headervten .tg-headerholder .tg-addnav > li{position: relative;}
+.tg-headervten .tg-headerholder .tg-addnav > li + li:before{
+	top: 2px;
+	left: 0;
+	margin: 0;
+	width: 1px;
+	height: 14px;
+	content: '';
+	display: block;
+	position: absolute;
+	background: #263248;
+}
+.tg-headervten .tg-headerholder .tg-addnav > li,
+.tg-headervten .tg-headerholder .tg-addnav > li a{color: #737373;}
+.tg-headervten .tg-addnav > li .tg-socialicons li a,
+.tg-headervten .tg-addnav > li .tg-socialicons li a i{color: #263248;}
+.tg-headervten .tg-headerholder .tg-nav{
+	background: #263248;
+	padding: 0 50px 0 320px;
+}
+.tg-headervten .tg-headerholder .tg-navigation > ul > li > a{
+	color: #fff;
+	line-height: 59px;
+}
+/*==============================================
+			Header Version Eleven				
+==============================================*/
+.tg-headerveleven{
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+	padding: 35px 0 0;
+	text-align: right;
+	position: absolute;
+}
+.tg-headerveleven .tg-nav{
+	padding: 0;
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+}
+.tg-headerveleven .tg-navigation > ul > li > a{
+	color: #fff;
+	text-align: left;
+	line-height: 60px;
+}
+.tg-searchandlanguages{
+	float: right;
+	width: 100px;
+	height: 35px;
+	border: 1px solid;
+	margin: 13px 0 13px 40px;
+}
+.tg-headerveleven .tg-formsearch{
+	width: 50%;
+	float: left;
+	overflow: visible;
+	border-right: 1px solid;
+}
+.tg-headerveleven .tg-formsearch .form-control{display: none;}
+.tg-headerveleven .tg-formsearch button{
+	width: 100%;
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	line-height: 33px;
+	text-overflow: center;
+	background: transparent;
+}
+.tg-languagesdropdown{
+	width: 50%;
+	float: right;
+}
+.tg-languagesdropdown a{
+	color: #fff;
+	display: block;
+	line-height: 33px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.tg-languagesdropdown a:hover,
+.tg-languagesdropdown a:focus{color: #fff;}
+.tg-languagesdropdown a span{display: block;}
+.tg-headerveleven .sub-menu{text-align: left;}
+/*==============================================
+			Header Version Twelve				
+==============================================*/
+.tg-headervtwelve{position: relative;}
+.tg-headervtwelve .tg-topbar{
+	padding: 35px 0;
+	background: #fff;
+}
+.tg-headervtwelve .tg-addnav,
+.tg-headervtwelve .tg-addnav li a{color: #444;}
+.tg-headervtwelve .tg-addnav{padding: 15px 0;}
+.tg-headervtwelve .tg-navigationarea{
+	top: 100%;
+	left: 0;
+	padding: 0;
+	z-index: 10;
+	width: 100%;
+	height: 65px;
+	position: absolute;
+}
+.tg-navigationandsearch{
+	margin: 4px 20px 0;
+	position: relative;
+	text-align: center;
+	background: #292929;
+}
+.tg-navigationandsearch:after,
+.tg-navigationandsearch:before{
+	bottom: 0;
+	content: '';
+	position: absolute;
+
+}
+.tg-navigationandsearch:after{
+	left: 100%;
+	border-top: 32px solid #292929;
+	border-bottom: 32px solid #292929;
+	border-right: 20px solid transparent;
+}
+.tg-navigationandsearch:before{
+	right: 100%;
+	border-top: 32px solid #292929;
+	border-bottom: 32px solid #292929;
+	border-left: 20px solid transparent;
+}
+.tg-navigationandsearch .tg-nav,
+.tg-navigationandsearch .tg-formsearch{
+	float: none;
+	width: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+.tg-navigationandsearch .tg-formsearch button{
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background: rgba(72, 72, 72, 0.60);
+}
+.tg-headervtwelve .tg-formsearch .form-control {display: none;}
+.tg-navigationandsearch .tg-nav{padding: 0 45px 0 0;}
+.tg-navigationandsearch .tg-navigation > ul > li{margin: 0 40px;}
+.tg-navigationandsearch .tg-navigation > ul > li > a{
+	color: #fff;
+	line-height: 64px;
+}
+/*==============================================
+			Header Version Thirteen				
+==============================================*/
+.tg-headervthirteen{position: relative;}
+.tg-headervthirteen .tg-topbar{
+	padding: 35px 0;
+	background: #fff;
+}
+.tg-headervthirteen .tg-addnav,
+.tg-headervthirteen .tg-addnav li a,
+.tg-headervthirteen .tg-addnav > li .tg-socialicons li a,
+.tg-headervthirteen .tg-addnav > li .tg-socialicons li a i{color: #444;}
+.tg-headervthirteen .tg-addnav{padding: 15px 0;}
+.tg-headervthirteen .tg-addnav > li + li:before{background: #292929;}
+.tg-headervthirteen .tg-navigationarea{
+	top: 100%;
+	left: 0;
+	padding: 0;
+	z-index: 10;
+	width: 100%;
+	height: 65px;
+	position: absolute;
+}
+.tg-headervthirteen .tg-navigationandsearch{
+	margin: 0;
+	width: 100%;
+	float: left;
+	background: #242c41;
+}
+.tg-headervthirteen .tg-navigationandsearch:after,
+.tg-headervthirteen .tg-navigationandsearch:before{display: none;}
+.tg-headervthirteen .tg-navigationandsearch .tg-nav{float: left;}
+.tg-headervthirteen .tg-navigationandsearch .tg-formsearch{
+	width: auto;
+	float: right;
+}
+.tg-headervthirteen .tg-navigationandsearch .tg-formsearch button{
+	color: #fff;
+	width: 64px;
+	height: 64px;
+	border-radius: 0;
+}
+.tg-headervthirteen .tg-navigationandsearch .tg-formsearch button i{}
+.tg-headervthirteen .tg-formsearch .form-control {display: none;}
+.tg-navigationandsearch .tg-nav{padding: 0 45px 0 0;}
+.tg-navigationandsearch .tg-navigation > ul > li{margin: 0 40px;}
+.tg-navigationandsearch .tg-navigation > ul > li > a{
+	color: #fff;
+	line-height: 64px;
+}
+.tg-navigationandsearch .sub-menu{text-align: left;}
+/*==============================================
+			Header Version Fourteen				
+==============================================*/
+.tg-headervfourteen{
+	z-index: 3;
+	position: relative;
+}
+.tg-headervfourteen .tg-searcharea{
+	padding: 0;
+	width: 100%;
+	float: left;
+	margin: 0 0 -32px;
+}
+.tg-searcharea .tg-searchareaholder{
+	width: 100%;
+	float: left;
+	background: #292929;
+}
+.tg-formcategory{
+	width: 300px;
+	float: left;
+	padding: 5px;
+}
+.tg-formcategory fieldset{border: 1px solid rgba(255, 255, 255, 0.10);}
+.tg-formcategory fieldset .tg-select:after{
+	top: 0;
+	margin: 0;
+	color: #fff;
+	font-size: 18px;
+	line-height: 54px;
+}
+.tg-formcategory fieldset .tg-select:before {
+	top: 0;
+	left: 15px;
+	z-index: 2;
+	width: 13px;
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	content: '\f0c9';
+	line-height: 54px;
+	position: absolute;
+	text-align: center;
+	font-family: 'FontAwesome';
+}
+.tg-formcategory fieldset .tg-select select{
+	border: 0;
+	color: #fff;
+	height: 52px;
+	background: none;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	padding: 10px 50px;
+	text-transform: uppercase;
+}
+.tg-searchareaholder .tg-formsearch{
+	width: auto;
+	float: none;
+	padding: 10px;
+	display: block;
+}
+.tg-searchareaholder .tg-formsearch fieldset{
+	position: relative;
+	padding: 0 180px 0 0;
+}
+.tg-searchareaholder .tg-formsearch fieldset .form-control{
+	border: 0;
+	width: 100%;
+	float: left;
+	height: 44px;
+}
+.tg-searchareaholder .tg-formsearch fieldset button{
+	top: 0;
+	right: 0;
+	border: 0;
+	color: #fff;
+	width: 180px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 44px;
+	text-align: center;
+	position: absolute;
+	background: #292929;
+	text-transform: uppercase;
+}
+.tg-searchareaholder .tg-formsearch fieldset button i,
+.tg-searchareaholder .tg-formsearch fieldset button span{display: inline;}

@@ -1,0 +1,58 @@
+*:after,
+*:before,
+p a,
+a,
+.tg-btn,
+.tg-footernav ul li a,
+.owl-nav > div,
+.tg-optionset li a,
+.tg-masonrygrid figure img,
+.tg-masonrygrid figure figcaption,
+.tg-brands figure a img,
+.owl-carousel .owl-dot span,
+figcaption,
+.tg-appstore,
+.tg-appstore i,
+.tg-themecollapse h3,
+.tg-themecollapse h3 a,
+.tg-tabnavsuccess ul li,
+.tg-tabnavsuccess ul li a,
+.tg-tabnavsuccess ul li a i,
+.tg-tabnavsuccess ul li a span,
+.tg-awards li figure a img,
+.tg-service figure figcaption,
+.tg-member figure,
+.tg-contentbox,
+.tg-membercontent,
+.tg-producthover,
+.sub-menu,
+.tg-specialfeaturesvthree .tg-specialfeature,
+.tg-prev,
+.tg-next,
+.tg-teammembersvsix .tg-member figure figcaption .tg-membercontent .tg-socialicons,
+.tg-teammembersvsix .tg-member figure figcaption .tg-membercontent .tg-experties,
+.tg-categorybox figure figcaption .tg-box,
+.tg-loveyoursuccessimg img,
+.tg-popularcourses .tg-btnprev,
+.tg-popularcourses .tg-btnnext{
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+.tg-themepostimg figcaption{
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+.tg-coursesvtwo .tg-themepostimg figcaption:before,
+.tg-coursesvtwo .tg-themepostimg figcaption:after{
+	-webkit-transition: all 1000ms ease-in-out;
+	-moz-transition: all 1000ms ease-in-out;
+	-ms-transition: all 1000ms ease-in-out;
+	-o-transition: all 1000ms ease-in-out;
+	transition: all 1000ms ease-in-out;
+}
